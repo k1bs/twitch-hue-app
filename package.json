@@ -19,6 +19,7 @@
   "homepage": "https://github.com/k1bs/twitch-hue-app#readme",
   "dependencies": {
     "electron": "1.7.11",
+    "nedb": "^1.8.0",
     "twitch-bot": "^1.2.2"
   }
 }
