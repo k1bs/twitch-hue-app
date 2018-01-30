@@ -1,6 +1,17 @@
 const { app, BrowserWindow } = require('electron')
 const path = require('path')
 const url = require('url')
+const Datastore = require('nedb')
+
+const user = new Datastore({
+  filename: 'assets/db/user.nedb',
+  autoload: true
+})
+
+const commands = new Datastore({
+  filename: 'assets/db/user.nedb',
+  autoload: true
+})
 
 let win
 
